@@ -19,7 +19,7 @@ body{
   vertical-align: baseline;
   
 }
-
+/*app css code goes here*/
 .app{
   animation: appear 1s ease-out;
   animation-duration: 1s;
@@ -31,6 +31,8 @@ body{
   animation-play-state: running;
   animation-name: appear;
 }
+
+/*HomePage*/
 
 .home-page{
   min-height: 90vh;
@@ -57,6 +59,8 @@ html{
   font-family: Open Sans,sans-serif;
   overflow-x: hidden; 
 }
+
+/*Herder*/
 
 header{
   position: relative;
@@ -88,6 +92,8 @@ a:active, a:hover{
   outline: 0;
 }
 
+/*Logo*/
+
 .logo{
   background-image: url(./assets/logo.png);
   width: 290px;
@@ -117,7 +123,7 @@ a{
 
 }
 
-
+/*Nav Header*/
 header nav{
   position: absolute;
   right: 0;
@@ -128,6 +134,8 @@ header nav{
   transition: visibility 0s,opacity .5s;
   display: block;
 }
+
+/*Nav*/
 
 nav{
   padding: 0;
@@ -213,6 +221,8 @@ header nav .nav-item.button{
   border: 1px solid #8ca23b;
   background: linear-gradient(180deg,#b1c067 0,#8ca23b);
 }
+/*Banner*/
+
 
 .home-page .banner{
   color: #fff;
@@ -292,7 +302,7 @@ input[type=tel]{
   font-family: Open Sans;
 } 
 
-
+/*Input fields*/
 
 input{
   -webkit-writing-mode: horizontal-tb !important;
@@ -321,6 +331,8 @@ input{
   width: 380px;
   font-size: 20px;
 }
+
+/*Button*/
 
 button{
   box-sizing: border-box;
@@ -359,7 +371,8 @@ button{
   font-weight: 600;
 }
 
-/* What people say about us */
+/*Show Case of What people say about us */
+
 .home-page .showcase{
   position: relative;
   text-align: center;
@@ -418,6 +431,8 @@ h3{
   height: 2px;
 }
 
+/*Testimonials*/
+
 .home-page .showcase .testimonials{
   margin-bottom: 70px;
 }
@@ -471,7 +486,7 @@ h3{
   border-right: 28px solid transparent;
   right: 40px;
 }
-
+/*Showcase Images*/
 .home-page .showcase .phone{
   background-image: url(./assets/phone.PNG);
   display: inline-block;
@@ -559,7 +574,7 @@ h3 span{
   margin: 0px 0px;
 
 }
-
+/*companies images*/
 .companies .kaedco{
   width: 190px;
   margin: 0 50px;
@@ -620,7 +635,7 @@ h3 span{
   margin: 0 50px;
   background-image: url(./assets/ph.PNG);
 }
-
+/*Merchant*/
 .merchant{
   background: #f9f8f4;
   margin-top: 50px;
@@ -638,7 +653,7 @@ h3 span{
   border: 0;
   border-radius: 50px;
 }
-
+/*footer*/
 footer{
   background: rgba(0,0,0,.3);
   padding: 25px 0;
